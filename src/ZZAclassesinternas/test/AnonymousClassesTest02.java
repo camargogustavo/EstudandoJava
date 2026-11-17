@@ -23,4 +23,6 @@ public class AnonymousClassesTest02 {
         });
         System.out.println(barcoList);
     }
+
+
 }

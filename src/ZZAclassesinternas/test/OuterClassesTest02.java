@@ -20,4 +20,5 @@ public class OuterClassesTest02 {
         OuterClassesTest02 outer = new OuterClassesTest02();
         outer.print("Gustavo");
     }
+
 }
