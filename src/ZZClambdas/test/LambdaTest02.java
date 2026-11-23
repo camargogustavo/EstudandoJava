@@ -13,8 +13,6 @@ public class LambdaTest02 {
         System.out.println(inteiros);
         System.out.println(map);
 
-        Consumer<String> consumer = (List<String> list, )
-        strings.forEach(String::trim);
 
     }
 
@@ -27,12 +25,6 @@ public class LambdaTest02 {
         return result;
     }
 
-    private static <T> void filterByTitle(List<T> list, Consumer<T> consumer){
-        for (T t : list) {
-            consumer.accept(t);
-        }
-
-    }
 
 
 
