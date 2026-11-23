@@ -20,6 +20,7 @@ public class MethodReferenceTest03 {
         System.out.println(aninmeList);
         Function<String, Integer> numStringInteger = s -> Integer.parseInt(s);
         Function<String, Integer> numStringInteger1 = Integer::parseInt;
+        Function<String, StringBuilder> newStringBuilder = StringBuilder::new;
         Integer num = numStringInteger1.apply("10");//comprova que passou para integer
 //        System.out.println(numStringInteger1.apply("10"));
         System.out.println(num);

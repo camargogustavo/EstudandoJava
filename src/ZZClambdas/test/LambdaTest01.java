@@ -15,15 +15,15 @@ public class LambdaTest01 {
         foreach(nomes, (String s) -> System.out.println(s));
         foreach(integers, i -> System.out.println(i));
         foreach(nomes, s -> System.out.println(s.toUpperCase()));
+        nomes.forEach(System.out::println);
+
 
 
 
     }
 
     private static <T> void foreach(List<T> lista, Consumer<T> consumer){
-        for (T e : lista) {
-            consumer.accept(e);
-        }
+
 
     }
 }
